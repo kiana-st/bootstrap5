@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "iransans";
+    src: url(../font/IRANSansWeb.woff) format("woff");
+}
+body {
+    font-family: "iransans" !important;
+    /* direction: rtl; */
+}
+.navigation-wrap {
+    /* position: fixed;
+    width: 100%;
+    left:0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; */
+}
+.top-banner{
+    width: 100%; 
+    background:#90b63f ;
+    /* background: url('') no-repeat center; */
+    background-size: cover;
+    padding: 10.875rem 0 9.375rem;
+    direction: rtl;
+}
+.text{
+    font-size: 280%;
+    font-weight: 800;
+}
+.text1{
+    font-size: 280%;
+    font-weight: 800;
+    padding-right: 35px;
+}
+.text2{
+    font-size: 180%;
+    font-weight: 200;
+    padding-right: 35px;
+}
+.pic{
+    width: 500px;
+    direction: ltr;
+
+}
+.pic1{
+    width: 20px;
+    display:block;
+    margin:0 auto;
+}
+#banner{
+    padding:0 20px;
+}
